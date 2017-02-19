@@ -2,6 +2,7 @@
 # name: weeklyreviewtemplate
 # key: weeklyreviewtemplate
 # --
+
 ** CLOSING NOTE [`(format-time-string "%Y-%m-%d %a %H:%M")`] \\\\
 *** Recap of last week
 *** Goals for next week
