@@ -1,7 +1,0 @@
-# -*- mode: snippet -*-
-# name: haskell
-# key: hsrc
-# --
-#+BEGIN_SRC haskell
-$0
-#+END_SRC
