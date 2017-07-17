@@ -9,5 +9,7 @@ ${1:/etc/foobar}:
     - user: root
     - group: root
     - mode: 644
+    - dir_mode: 755
+    - makedirs: True
     - defaults:
       ${3:var}: {{ $3 }}
