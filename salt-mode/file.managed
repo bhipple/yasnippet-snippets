@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: Salt file.managed template
+# key: filemanaged
+# --
+${1:/etc/foobar}:
+  file.managed:
+    - source: salt://${2:filepath}
+    - template: jinja
+    - user: root
+    - group: root
+    - mode: 644
+    - defaults:
+      ${3:var}: {{ $3 }}
