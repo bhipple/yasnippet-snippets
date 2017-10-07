@@ -1,0 +1,16 @@
+# -*- mode: snippet -*-
+# name: quarterlyreviewtemplate
+# key: quarterlyreviewtemplate
+# --
+
+** `(format-time-string "%Y")` Q${1:1}
+*** Highlights and Accomplishments
+**** At home
+**** At work
+*** Habit Overview
+- Meditation
+- Lifting
+*** What went well
+*** What didn't go well
+*** What to change
+*** High level goals for next quarter
